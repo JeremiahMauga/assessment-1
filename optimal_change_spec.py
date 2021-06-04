@@ -19,7 +19,7 @@ class TestGetChange(unittest.TestCase) :
     def test_get_change_4(self) :
         self.assertEqual(get_change(49.99, 50), "The optimal change for an item that costs $49.99 with an amount paid of $50 is 1 penny.")
 
-    def test_get_change_1(self) :
+    def test_get_change_5(self) :
         self.assertEqual(get_change(256, 500), "The optimal change for an item that costs $256 with an amount paid of $500 is 2 $100 bills, 2 $20 bills, and 4 $1 bills")
 
 if __name__ == '__main__':
